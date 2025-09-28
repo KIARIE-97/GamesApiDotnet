@@ -23,13 +23,16 @@ public static class GamesEndpoints
         new DateOnly(2020, 2, 2)
     )
     ];
-    public static WebApplication MapGameEndpoints(this WebApplication app)
+    public static RouteGroupBuilder MapGameEndpoints(this WebApplication app)
     {
+
+        var group = app.MapGroup("games").WithParameterValidation();
+
         //GET
-        app.MapGet("games", () => games);
+        group.MapGet("/", () => games);
 
         //GET BY ID
-        app.MapGet("games/{id}", (int id) =>
+        group.MapGet("/{id}", (int id) =>
         {
             GameDto? game = games.Find(game => game.Id == id);
             return game is null ? Results.NotFound() : Results.Ok(game);
@@ -37,7 +40,7 @@ public static class GamesEndpoints
             .WithName(GameEndpointName);
 
         //POST
-        app.MapPost("games", (CreateGameDto newGame) =>
+        group.MapPost("/", (CreateGameDto newGame) =>
         {
             GameDto game = new(
                 games.Count + 1,
@@ -51,7 +54,7 @@ public static class GamesEndpoints
         });
 
         //put
-        app.MapPut("games/{id}", (int id, UpdateGameDto updateGame) =>
+        group.MapPut("/{id}", (int id, UpdateGameDto updateGame) =>
         {
             var index = games.FindIndex(game => game.Id == id);
             if (index == -1)
@@ -69,11 +72,30 @@ public static class GamesEndpoints
             return Results.NoContent();
         });
 
+        //patch
+        // group.MapPatch("/{id}", (int id, PatchGameDto patchGame) =>
+        // {
+        //     var game = games.FirstOrDefault(g => g.Id == id);
+        //     if (game == null) return Results.NotFound();
+
+        //     var updatedGame = game with
+        //     {
+        //         Name = patchGame.Name ?? game.Name,
+        //         Genre = patchGame.Genre ?? game.Genre,
+        //         Price = patchGame.Price ?? game.Price,
+        //         ReleaseDate = patchGame.ReleaseDate ?? game.ReleaseDate
+        //     };
+
+        //     var index = games.FindIndex(g => g.Id == id);
+        //     games[index] = updatedGame;
+        //      return Results.Ok(updatedGame);
+        // });
+
         //DELETE
-        app.MapDelete("games/{id}", (int id) =>
+        group.MapDelete("/{id}", (int id) =>
         {
             games.RemoveAll(game => game.Id == id);
         });
-return app;
+return group;
     }
 }
