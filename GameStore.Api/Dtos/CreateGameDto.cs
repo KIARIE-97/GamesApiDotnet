@@ -4,8 +4,8 @@ namespace GameStore.Api.Dtos;
 
 public record class CreateGameDto
 (
-[Required]string Name,
-[Required]string Genre,
-[Range(1, 20)]decimal Price,
+[Required] string Name,
+int GenreId,
+[Range(1, 20)] decimal Price,
 DateOnly ReleaseDate
 );
