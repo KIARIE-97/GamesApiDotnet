@@ -1,0 +1,14 @@
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.AssemblyInfoInputs.cache
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.AssemblyInfo.cs
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\bin\Debug\net9.0\FirstApp.exe
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\bin\Debug\net9.0\FirstApp.deps.json
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\bin\Debug\net9.0\FirstApp.runtimeconfig.json
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\bin\Debug\net9.0\FirstApp.dll
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\bin\Debug\net9.0\FirstApp.pdb
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.dll
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\refint\FirstApp.dll
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.pdb
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\FirstApp.genruntimeconfig.cache
+C:\Users\zarrah\Desktop\projects\webTrack\csharp\FirstApp\obj\Debug\net9.0\ref\FirstApp.dll
