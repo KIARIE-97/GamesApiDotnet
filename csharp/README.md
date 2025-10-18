@@ -161,6 +161,73 @@ PrintMessage("Hello, World!");
 - Functions can have parameters to accept input values and can return values using the `return` statement.
 - Functions help in breaking down complex problems into smaller, manageable tasks, making the code easier to maintain and understand.
 
+### 🧮 Scenario: Building a Simple Grade Calculator
+Imagine you're creating a console application for a teacher to calculate the average grade of students and determine their performance category.
+
+- Data Types: Use int, float, string, and char.
+- Typecasting: Convert int to float for precise average calculation.
+- Loops: Use a for loop to input multiple grades.
+- Functions: Create reusable methods to calculate average and categorize performance.
+```csharp
+using System;
+
+class GradeCalculator
+{
+    // Function to calculate average
+    static float CalculateAverage(int[] grades)
+    {
+        int sum = 0;
+        for (int i = 0; i < grades.Length; i++)
+        {
+            sum += grades[i];
+        }
+        return (float)sum / grades.Length; // Typecasting int to float
+    }
+
+    // Function to categorize performance
+    static string GetPerformanceCategory(float average)
+    {
+        if (average >= 80) return "Excellent";
+        else if (average >= 60) return "Good";
+        else if (average >= 40) return "Average";
+        else return "Poor";
+    }
+
+    static void Main()
+    {
+        Console.Write("Enter number of students: ");
+        int studentCount = int.Parse(Console.ReadLine());
+
+        for (int s = 1; s <= studentCount; s++)
+        {
+            Console.WriteLine($"\nStudent {s}:");
+            int[] grades = new int[3];
+
+            for (int i = 0; i < grades.Length; i++)
+            {
+                Console.Write($"Enter grade {i + 1}: ");
+                grades[i] = int.Parse(Console.ReadLine());
+            }
+
+            float average = CalculateAverage(grades);
+            string category = GetPerformanceCategory(average);
+
+            Console.WriteLine($"Average Grade: {average:F2}");
+            Console.WriteLine($"Performance: {category}");
+        }
+    }
+}
+```
+### Explanation of the Code
+- The program starts by prompting the user to enter the number of students.
+- For each student, it collects three grades using a for loop.
+- The `CalculateAverage` function computes the average of the grades, using typecasting to ensure a precise float result.
+- The `GetPerformanceCategory` function categorizes the student's performance based on the average grade using if-else statements.
+- Finally, the program outputs the average grade and performance category for each student.
+## Conclusion
+This simple grade calculator demonstrates the use of data types, typecasting, loops, and functions in C#. By organizing the code into functions, we enhance readability and reusability, making it easier to maintain and extend in the future.
+Feel free to modify and expand upon this example to further explore C# programming concepts!
+
 
 
    
