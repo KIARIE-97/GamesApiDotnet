@@ -1,0 +1,15 @@
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.AssemblyInfoInputs.cache
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.AssemblyInfo.cs
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.csproj.CoreCompileInputs.cache
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.sourcelink.json
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\bin\Debug\net9.0\Oop.exe
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\bin\Debug\net9.0\Oop.deps.json
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\bin\Debug\net9.0\Oop.runtimeconfig.json
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\bin\Debug\net9.0\Oop.dll
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\bin\Debug\net9.0\Oop.pdb
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.dll
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\refint\Oop.dll
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.pdb
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\Oop.genruntimeconfig.cache
+C:\Users\zarrah\Desktop\projects\dotnet\csharp\Oop\obj\Debug\net9.0\ref\Oop.dll

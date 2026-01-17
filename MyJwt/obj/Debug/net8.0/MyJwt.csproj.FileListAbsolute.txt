@@ -1,0 +1,15 @@
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.AssemblyInfoInputs.cache
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.AssemblyInfo.cs
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.csproj.CoreCompileInputs.cache
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.sourcelink.json
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\bin\Debug\net8.0\MyJwt.exe
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\bin\Debug\net8.0\MyJwt.deps.json
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\bin\Debug\net8.0\MyJwt.runtimeconfig.json
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\bin\Debug\net8.0\MyJwt.dll
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\bin\Debug\net8.0\MyJwt.pdb
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.dll
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\refint\MyJwt.dll
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.pdb
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\MyJwt.genruntimeconfig.cache
+C:\Users\zarrah\Desktop\projects\dotnet\MyJwt\obj\Debug\net8.0\ref\MyJwt.dll
